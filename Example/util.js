@@ -1,8 +1,6 @@
-var React = require('react-native')
+import React, { Component } from 'react';
+import NativeModules from 'react-native';
 
-var {
-    NativeModules
-} = React
 
 var UMengManager = NativeModules.UMengManager;
 
